@@ -146,7 +146,7 @@ a {
     right: 0;
     bottom: 0;
     position: absolute;
-    background-image: url('../img/Accueil (7).png');
+    background-image: url('./img/Accueil (7).png');
     filter: blur(10px);
 }
 #balance{
