@@ -1,0 +1,218 @@
+body{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEBEB;
+    font-family: 'Lato';
+}
+
+
+
+
+/*en-tête*/
+
+header{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 7%;
+}
+
+#logo1{
+    width: 9%;
+}
+
+#pages{
+    display: flex;
+    gap: 6%;
+    font-size: 110%;
+    color : #4B3C35;
+    padding: 2% 4%;
+    width: 70%;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+#Inscrire{
+    color: #EBEBEB;
+    background-color: #4B3C35;
+    font-family: 'Open Sans';
+    border: 0;
+    padding: 1%;
+    margin: 5%;
+    border-radius: 3px;
+    width: 80%;
+}
+
+#use{
+    color: #6B8E23;
+}
+
+
+/*Fin en-tête*/
+
+
+
+
+.separator{
+    height: 1px; 
+    background-color: #4B3C35;
+    box-shadow:  5px 4px 6px #4B3C35;
+}
+
+
+
+/*Première section*/
+#one{
+    width: 98vw; 
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0 ;
+    overflow: hidden; 
+}
+
+#premierImg {
+    width: 100%;
+    height: 100%; 
+}
+
+#MesIcones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+/*Fin première section*/
+
+
+
+
+/*Deuxiéme section*/
+#two{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Coming Soon';
+    align-items: center;
+    text-align: center;
+}
+
+#Contact{
+    margin: 20px 50px 20px 70px ;
+}
+#marron1{
+    color: #4B3C35;
+    font-size: 35px;
+    margin: 25px 2px 0px 5px;
+}
+#marron2{
+    color: #4B3C35;
+    font-size: 47px;
+    margin: 0px 2px 25px 5px;
+
+}
+
+#marronclair1{
+    color:#9C7A57;
+    font-size: 29px;
+    margin: 0px 2px 0px 5px;
+
+}
+#marronclair2{
+    color: #9C7A57;
+    font-size: 29px;
+    margin: 0px 2px 70px 5px;
+
+}
+
+#MesIcones{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#Kaay{
+    background-color: #4B3C35;
+    color: #EBEBEB;
+    font-size: 42px;
+    margin: 80px 20px 20px 0px ;
+
+}
+
+#kaayFi{
+    margin: 20px 0 0 0;
+}
+#maps{
+    width: 700px;
+}
+/*Fin deuxiéme section*/
+
+
+
+/*Troisième section*/
+#three{
+    background-color: #4B3C35;
+    color: #EBEBEB;
+    padding: 50px;
+}
+
+.form {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    font-size: 60px;
+    gap: 30px 50px;
+   
+}
+
+input{
+    padding: 7px;
+}
+
+#message{
+    margin: 30px 0;
+    padding: 23px;
+}
+
+#infolettre{
+    font-size: 26px;
+}
+
+#infolettre +p{
+    font-size: 13px;
+}
+
+#Politique{
+    color: blue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#submit{
+    width: 180px;
+    font-size: 26px;
+    color: #4B3C35;
+    border: solid 1px #4B3C35 ;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/*Fin troisième section*/
+
+footer{
+    background-color: #4B3C35;
+    color: #C0C0C0;
+    font-size: 150%;
+    padding: 3% ;
+    filter: blur(1px);
+
+}

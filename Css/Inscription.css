@@ -1,0 +1,414 @@
+body{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEBEB;
+    font-family: 'Lato';
+    
+}
+
+
+
+
+/*en-tête*/
+
+header{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 7%;
+}
+
+#logo1{
+    width: 9%;
+}
+
+#pages{
+    display: flex;
+    gap: 6%;
+    font-size: 110%;
+    color : #4B3C35;
+    padding: 2% 4%;
+    width: 70%;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+#Inscrire{
+    color: #EBEBEB;
+    background-color: #4B3C35;
+    font-family: 'Open Sans';
+    border: 0;
+    padding: 1%;
+    margin: 5%;
+    border-radius: 3px;
+    width: 80%;
+}
+
+#use{
+    color: #6B8E23;
+}
+
+
+/*Fin en-tête*/
+
+
+
+
+.separator{
+    height: 1px; 
+    background-color: #4B3C35;
+    box-shadow:  5px 4px 6px #4B3C35;
+}
+
+
+
+#section_principal{
+    position: relative; 
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    color: #6B8E23;
+    background-image: url('../img/ondulée.png');
+}
+
+
+
+
+
+
+/*Pour les types de billets*/
+#Titre{
+    font-family: 'Oswald';
+    font-size: 175%;
+    text-align: center;
+    padding: 4% 4% 0% 4%;
+}
+
+
+#types_billets{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 4% 2%; 
+    width: 98%;
+    padding: 5% 1%;
+    color: #4B3C35;
+}
+
+
+.billets{
+     
+    padding: 4% 2% 0% 5%;
+    font-size: 1.2em;
+    background-color: #EBEBEB;
+    border:solid 1px #4B3C35;
+}
+
+.entete{
+    display: flex;
+    flex-direction: row;
+
+}
+.rectangle {
+    width: 2%;            
+    height: 41px;       
+    background-color: #4B3C35;
+    border-radius: 4px;    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.types{
+    color: #6B8E23;
+    padding: 2%;
+}
+
+.prix{
+    color: #6B8E23;
+    padding: 2% 0% 2% 62%;
+}
+#padd{
+    padding: 0% 0% 8% 0%;
+}
+
+.icones{
+    padding: 10% 0% 3% 0%;
+}
+
+i{
+    padding: 0% 3% 0% 0%;
+}
+
+.material-icons{
+    padding: 0% 3% 0% 0%;
+
+}
+
+/*Fin types de billets*/
+
+
+/*Pour le formulaire*/
+
+form{
+    margin: 4%;
+    border: solid 1px  #4B3C35;
+    border-radius: 8px;    
+
+}
+
+#titre_Form{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px   #6B8E23;;
+    border-radius: 5px;
+    box-shadow:  4px  4px  16px rgba(0, 0, 0);
+    background-color: #EBEBEB;
+    margin: 5% 24%;
+    padding: 1%;
+    font-family: 'Oswald';
+    font-size: 220%;
+}
+
+#titre_Form p{
+    margin: 0;
+}
+#formul{
+    width: 6%;
+    height: 50px;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px  #EBEBEB;
+    box-shadow:  4px  4px  16px rgba(0, 0, 0);
+    background-color: #EBEBEB;
+    margin: 5% 6%;
+    padding: 2% 3% 5% 3%;
+    font-family: 'Lato';
+}
+
+.circle {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    background-color:#6B8E23; 
+    color:#EBEBEB; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 24px; 
+}
+
+.titre_encore{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.titre_encore p{
+    font-family: 'Montserrat';
+    font-size: 170%;
+    margin: 7px 0 20px 8px;
+}
+
+.premier {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 35px 120px;  
+}
+
+.input {
+    position: relative; 
+}
+
+input {
+    width: 100%; 
+    padding: 8px; 
+    border: none;
+    border-bottom: 1px solid #4B3C35; 
+    font-size: 16px; 
+    box-sizing: border-box;
+    background-color: #EBEBEB; 
+
+}
+select{
+    width: 100%; 
+    padding: 8px; 
+    border: none;
+    border-bottom: 1px solid #4B3C35; 
+    font-size: 16px; 
+    box-sizing: border-box;
+    background-color: #EBEBEB; 
+
+}
+
+
+label {
+    position: absolute;
+    left: 10px; 
+    top: 10px; 
+    color:#4B3C35; 
+    font-size: 16px; 
+    transition: 0.9s;
+}
+
+option{
+    color:#4B3C35; 
+    font-size: 20px; 
+    opacity: 0.8; 
+
+
+}
+
+
+
+
+.ok{
+    font-size: 20px;
+    margin: 35px 0 0 0;
+}
+
+.premier_un{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(1, 1fr); 
+    gap: 35px 120px;  
+}
+
+.deux{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 35px 120px;  
+}
+
+.trois{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 35px 120px;  
+}
+
+
+.inputtt {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #4B3C35;
+    user-select: none;
+}
+
+.inputtt input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.spanlabel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #EBEBEB;
+    border: 2px solid #4B3C35;
+    border-radius: 50%; 
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spanlabel:after {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #4B3C35;
+    border-radius: 50%;
+    display: none;
+}
+
+.inputtt input[type="radio"]:checked ~ .spanlabel:after {
+    display: block;
+}
+
+#codeP{
+    display: flex;
+    flex-direction: row;
+    color: #4B3C35;
+    
+}
+
+#code{
+    width: 100px;
+    margin: 0 30px 0 10px;
+}
+
+#codeP button{
+    background-color: #4B3C35;
+    color: #EBEBEB;
+    width: 100px;
+    padding: 0;
+    border: 0;
+} 
+
+#paye{
+    margin: 15px 20px 5px 70px;
+}
+
+
+.fa-arrow-right{
+    margin: 9px 20px 5px 0px;
+
+}
+
+#VIPforce{
+    color: #FF6624;
+}
+
+
+.quatre{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(1, 1fr); 
+    gap: 35px 120px 40px 120px;  
+    font-size: 16px;
+}
+
+#Mesboutons{
+    width: 900px;
+    margin: 20px 0 0 0;
+    button{
+        background-color: #6B8E23;
+        color:#EBEBEB;
+        border: 0;
+        border-radius: 4px;
+        padding: 9px 2px;
+        margin: 60px 75px 0px 70px ;
+        width: 300px;
+        font-size: 20px;
+    }
+}
+/*Fin formulaire*/
+
+
+
+
+
+footer{
+    background-color: #4B3C35;
+    color: #C0C0C0;
+    font-size: 150%;
+    padding: 3% ;
+    filter: blur(1px);
+
+}
