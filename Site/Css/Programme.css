@@ -1,0 +1,180 @@
+body{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEBEB;
+    font-family: 'Lato';
+}
+
+
+
+
+/*en-tête*/
+
+header{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 7%;
+}
+
+#logo1{
+    width: 9%;
+}
+
+#pages{
+    display: flex;
+    gap: 6%;
+    font-size: 110%;
+    color : #4B3C35;
+    padding: 2% 4%;
+    width: 70%;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+#Inscrire{
+    color: #EBEBEB;
+    background-color: #4B3C35;
+    font-family: 'Open Sans';
+    border: 0;
+    padding: 1%;
+    margin: 5%;
+    border-radius: 3px;
+    width: 80%;
+}
+
+#use{
+    color: #6B8E23;
+}
+
+
+/*Fin en-tête*/
+
+
+/*Section*/
+
+.mySection{
+    margin: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.mySection p:first-child{
+    font-family: 'Oswald';
+    color: #6B8E23;
+    font-size: 42px;
+    text-align: center;
+    margin: 0;
+}
+
+
+#separator{
+    height: 1.34px; 
+    background-color: #4B3C35;
+    box-shadow:  -0.6px 4px 4px #4B3C35;
+    width: 450px;
+}
+
+
+
+.monProgramme {
+    width: 100%;
+    border: none; 
+    border-collapse: collapse; 
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 40px 0 ;
+}
+
+  
+.monProgramme th{
+  border: 1px dotted rgb(75, 60, 53);
+  border-top: none;
+  background-color: rgb(142, 115, 84);
+  color: rgb(235, 235, 235);
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.monProgramme td {
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    padding: 10px;
+    border: 1px dotted rgb(75, 60, 53);
+}
+
+.monProgramme td:first-child {
+    text-align: left;
+    font-weight: 400;
+    width: 150px;
+    border-left: none;
+}
+.monProgramme td:last-child {
+    text-align: right;
+    font-weight: 400;
+    width: 180px;
+    border-right: none;
+}
+
+.monProgramme tr:last-child td{
+    border-bottom: none;
+}
+
+.monProgramme th:first-child{
+    border-left: none;
+
+}
+
+.monProgramme th:last-child{
+    border-right: none;
+}
+td, th{
+    height: 120px;
+}
+
+.monProgramme td.pause{
+    text-align: center;
+}
+  
+  
+
+
+
+
+
+#prog{
+    background-color: #9C7A57;
+    color: #EBEBEB;
+    padding: 30px;
+    font-family: 'Lato';
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 50px;
+
+}
+/*Fin Section */
+
+
+.separator{
+    height: 1px; 
+    background-color: #4B3C35;
+    box-shadow:  5px 4px 6px #4B3C35;
+}
+
+
+footer{
+    background-color: #4B3C35;
+    color: #C0C0C0;
+    font-size: 150%;
+    padding: 3% ;
+    filter: blur(1px);
+
+}
